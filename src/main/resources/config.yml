@@ -1,0 +1,21 @@
+# BOT-TL-ESPORT Configuration
+
+bot:
+  qq_id: 0  # Set your QQ ID here or use environment variable BOT_QQ_ID
+  password: ""  # Set your password here or use environment variable BOT_PASSWORD
+
+webhook:
+  messenger_token: ""  # Environment: MESSENGER_TOKEN
+  verify_token: ""  # Environment: VERIFY_TOKEN
+  port: 8080
+
+freefire:
+  api_base: "https://api.freefire.com"
+  api_key: ""  # Environment: FREEFIRE_API_KEY
+
+lineup:
+  database_url: "jdbc:sqlite:lineup.db"
+
+keygen:
+  secret_key: ""  # Environment: KEYGEN_SECRET
+  algorithm: "AES_256"
